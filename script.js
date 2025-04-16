@@ -245,7 +245,7 @@ const renderCategories=()=>{
          wrapper.classList.add("show-category");
          selectedCategory=category;
          categoryTitle.innerHTML=category.title;
-         categoryImg.src=`images/${category.img}`;
+         categoryImg.src=`./images/${category.img}`;
          calculateTotal();
          renderTasks();
        });
