@@ -31,11 +31,11 @@ let categories = [
     },
     {
       title: "Work",
-      img: "briefcase.png",
+      img: "Briefcase.png",
     },
     {
       title: "Shopping",
-      img: "shopping.png",
+      img: "Shopping.png",
     },
     {
       title: "Coding",
