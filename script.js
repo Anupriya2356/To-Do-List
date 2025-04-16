@@ -251,7 +251,7 @@ const renderCategories=()=>{
        });
        div.innerHTML =`
                         <div class="left">
-                            <img src="images/${category.img}" alt="${category.title}">
+                            <img src="/images/${category.img}" alt="${category.title}">
                             <div class="content">
                                 <h1>${category.title}</h1>
                                 <p>${categoryTasks.length} Tasks</p>
